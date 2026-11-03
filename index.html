@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f7f0e7">
+<meta name="description" content="Wedding invitation of Aribam Jessica Devi and Ngariyanbam Rojit Singh">
+<title>Jessica & Rojit — Wedding Invitation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="ambient"></div>
+<main class="invite">
+  <section class="cover" id="cover">
+    <div class="corner-flower top-left">❀</div><div class="corner-flower top-right">❀</div>
+    <p class="eyebrow">TOGETHER WITH THEIR FAMILIES</p>
+    <p class="cover-intro">You are warmly invited to celebrate the wedding of</p>
+    <h1><span>Jessica</span><i>&</i><span>Rojit</span></h1>
+    <div class="ornament">✦ ❧ ✦</div>
+    <p class="cover-date">11 · 12 · 2026</p>
+    <button class="open-btn" id="openBtn" aria-label="Open invitation">Open Invitation <span>♥</span></button>
+    <p class="tap-note">Tap to open</p>
+    <div class="corner-flower bottom-left">❀</div><div class="corner-flower bottom-right">❀</div>
+  </section>
+
+  <section class="inside hidden" id="inside">
+    <header class="hero">
+      <p class="eyebrow">WITH LOVE & JOY</p>
+      <h2>We’re getting<br><em>married!</em></h2>
+      <div class="floral-divider">❧ ✧ ❧</div>
+      <div class="couple-photo-wrap">
+        <img class="couple-photo" src="couple.jpg" alt="Jessica and Rojit together">
+      </div>
+      <p class="invitation-copy">With the blessings of our families,<br>we invite you to join us as we begin<br>our beautiful journey together.</p>
+      <div class="names">
+        <div>Aribam Jessica Devi</div><span>♥</span><div>Ngariyanbam Rojit Singh</div>
+      </div>
+      <p class="date-line">FRIDAY <b>·</b> DECEMBER 11, 2026</p>
+    </header>
+
+    <section class="countdown-section">
+      <p class="eyebrow">COUNTING DOWN TO OUR BIG DAY</p>
+      <div class="countdown" id="countdown">
+        <div><strong id="days">00</strong><span>Days</span></div>
+        <div><strong id="hours">00</strong><span>Hours</span></div>
+        <div><strong id="minutes">00</strong><span>Minutes</span></div>
+        <div><strong id="seconds">00</strong><span>Seconds</span></div>
+      </div>
+    </section>
+
+    <section class="details">
+      <p class="eyebrow">THE CELEBRATION</p>
+      <h2>Save the Date</h2>
+      <div class="detail-card">
+        <div class="detail-icon">✧</div>
+        <h3>Wedding Ceremony</h3>
+        <p class="detail-date">Friday, 11 December 2026</p>
+        <p class="detail-time">Please join us to celebrate our special day.</p>
+        <a class="venue-link" href="https://maps.app.goo.gl/rHN7uQBtNAwVesWFA?g_st=ac" target="_blank" rel="noopener">View venue on Google Maps ↗</a>
+      </div>
+      <p class="venue-note">We can't wait to celebrate this memorable day with you.</p>
+    </section>
+
+    <section class="rsvp">
+      <p class="eyebrow">YOUR PRESENCE IS OUR PRESENT</p>
+      <h2>Kindly RSVP</h2>
+      <p>Please let us know if you’ll be joining us.</p>
+      <form id="rsvpForm">
+        <label for="guestName">Your name</label>
+        <input id="guestName" name="guestName" placeholder="Enter your name" required>
+        <label for="attendance">Will you attend?</label>
+        <select id="attendance" name="attendance" required>
+          <option value="" selected disabled>Please choose</option>
+          <option value="Joyfully accepts">Joyfully accepts</option>
+          <option value="Regretfully declines">Regretfully declines</option>
+        </select>
+        <label for="guestCount">Number of guests</label>
+        <select id="guestCount" name="guestCount">
+          <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option>
+        </select>
+        <button class="rsvp-btn" type="submit">Send RSVP on WhatsApp</button>
+      </form>
+      <p class="contact-note">You can RSVP to either of us:</p>
+      <div class="contacts">
+        <a href="https://wa.me/917005206036" target="_blank" rel="noopener">Jessica · 7005206036</a>
+        <a href="https://wa.me/917629951466" target="_blank" rel="noopener">Rojit · 7629951466</a>
+      </div>
+    </section>
+
+    <footer>
+      <div class="floral-divider">✦ ❧ ✦</div>
+      <p>With love,</p>
+      <h2>Jessica <span>&</span> Rojit</h2>
+      <p class="footer-date">11 · 12 · 2026</p>
+      <p class="small">We look forward to celebrating with you.</p>
+    </footer>
+  </section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
